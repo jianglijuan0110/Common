@@ -29,7 +29,14 @@ public interface IAnimal extends Remote {
     
     
     String getEspece()throws RemoteException;
+    
+    
     String nomEspece() throws RemoteException;
+    void setNomEspece(String nom) throws RemoteException;
+    
+    
     int dureeVieEspece() throws RemoteException;
+    void setDureeVieEspece(int vie) throws RemoteException;
+    
 
 }
